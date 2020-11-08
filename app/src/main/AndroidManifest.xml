@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.vagrod.wordwhirl">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:requestLegacyExternalStorage="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".Activities.SettingsActivity"
+                android:label="@string/title_activity_settings"></activity>
+        <activity
+                android:name=".Activities.ThroughSearchActivity"
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+                android:name=".Activities.DictionaryViewActivity"
+                android:label="@string/title_activity_dictionary"
+                android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+                android:name=".Activities.WhirlActivity"
+                android:screenOrientation="portrait">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.vagrod.wordwhirl.Activities.MainActivity" />
+        </activity>
+        <activity android:name=".Activities.WordsEditorActivity" />
+        <activity
+                android:name=".Activities.GroupSettingsActivity"
+                android:parentActivityName=".Activities.MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.vagrod.wordwhirl.Activities.MainActivity" />
+        </activity>
+        <activity
+                android:name=".Activities.MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

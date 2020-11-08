@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <TextView android:text="@string/word_editor_first_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/word_first" android:textSize="16sp"/>
+    <EditText android:textIsSelectable="true"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/wordeditor_first" android:textSize="16sp"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="40dp"/>
+
+    <TextView android:text="@string/word_editor_second_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/word_second" android:textSize="16sp"  />
+    <EditText android:textIsSelectable="true"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/wordeditor_second" android:textSize="16sp"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="20dp"/>
+
+    <CheckBox android:id="@+id/noflip"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/pair_noflip"/>
+
+</LinearLayout>

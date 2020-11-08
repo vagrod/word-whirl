@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Слово-ворот</string>
+    <string name="navigation_drawer_open">Открыть меню</string>
+    <string name="navigation_drawer_close">Закрыть меню</string>
+    <string name="action_import">Импорт группы</string>
+    <string name="action_export">Экспорт…</string>
+
+    <string name="select_file">Файл для импорта</string>
+
+    <string name="menu_new_group">Добавить группу…</string>
+    <string name="title_activity_group_settings_edit">Параметры группы</string>
+    <string name="title_activity_group_settings_new">Новая группа слов</string>
+
+    <!-- Group Preferences -->
+    <string name="group_general">Основное</string>
+    <string name="group_actions">Действия</string>
+    <string name="group_name">Название группы</string>
+    <string name="group_delete">Удалить эту группу</string>
+    <string name="group_delete_desc">Нажмите здесь, чтобы удалить эту группу</string>
+    <string name="group_words_list">Список слов</string>
+    <string name="group_words_list_desc">Нажмите здесь, чтобы редактировать список слов</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="title_activity_words_editor">Редактор слов</string>
+    <string name="group_inactive">(не активна)</string>
+    <string name="group_set_active">Сдклать активной</string>
+    <string name="group_set_active_desc">Сделать эту группу снова активной</string>
+    <string name="group_set_inactive">Деактивировать</string>
+    <string name="group_set_inactive_desc">Сделать эту группу неактивной (группа при этом НЕ будет удалена)</string>
+
+    <string name="word_editor_first_word">Первое слово</string>
+    <string name="word_editor_second_word">Второе слово</string>
+
+    <string name="action_edit">Редактировать</string>
+    <string name="remove_confirm_title">Удаление группы</string>
+    <string name="remove_confirm_message">Вы действительно хотите удалить группу? Эту операцию нельзя будет отменить.</string>
+
+    <string name="start_whirl_single">Начать для этой группы</string>
+    <string name="start_whirl_global">Начать для всех групп</string>
+    <string name="whirl_loop">Зациклить последовательность слов</string>
+    <string name="whirl_randomize">Случайный порядок</string>
+    <string name="whirl_flip_rnd">Переворачивать случайные карточки</string>
+    <string name="whirl_flip_all">Перевернуть все карточки</string>
+    <string name="only_last_n_words">Только последние N слов:</string>
+    <string name="whirl_no_whirl">Ещё не создано ни одной группы слов. Нажмите знак Плюс, чтобы создать первую группу</string>
+    <string name="whirl_not_selected">Не выбрана группа слов. Используйте меню слева, чтобы выбрать группу, или нажмите знак Плюс, чтобы создать новую.</string>
+
+    <string name="global_whirl">Случайный набор</string>
+
+    <string name="whirl_end_confirm_title">Конец последовательности</string>
+    <string name="whirl_end_confirm_message">Это было последнее слово в группе. Повторить ещё раз?</string>
+
+    <string name="create_validation_title">Сохранение группы</string>
+    <string name="create_validation_message">Удостоверьтесь, что вы выбрали имя для группы и создали хотя бы одну пару слов</string>
+    <string name="wordpair_title">Пара слов</string>
+
+    <string name="last_n_validation_title">Проверка</string>
+    <string name="last_n_validation_message">Параметр \"последние N\" не может быть больше</string>
+    <string name="last_n_global_validation_message">Параметр \"последние N\" в этом случае должен быть больше нуля, так как говорит о том, сколько случайных слов должно быть в наборе</string>
+    <string name="last_n_global_is_null">Параметр \"последние N\" должен быть указан. В данном случае он говорит о том, сколько случайных слов должно быть в наборе.</string>
+
+    <string name="shuffle">Перемешать</string>
+    <string name="back">Назад</string>
+    <string name="repeat">Повторить</string>
+    <string name="showhide_title">Показать или скрыть второй столбец</string>
+
+    <string name="group_saved">Группа сохранена.</string>
+    <string name="group_removed">Группа удалена.</string>
+    <string name="word_updated">Слово изменено.</string>
+
+    <string name="storage_permission_title">Разрешение на экспорт файлов</string>
+    <string name="storage_permission_message">Приложение запрашивает разрешение на доступ к файловой системе устройства, чтобы завершить экспорт группы слов</string>
+
+    <string name="export_success_title">Экспорт завершён</string>
+    <string name="export_success_message">Вы найдёте экспортированный файл в папке Загрузки. Имя файла</string>
+
+    <string name="group_import_title">Импорт группы</string>
+    <string name="import_completed">Импорт завершён. Обновлена группа</string>
+
+    <string name="search_title">Поиск</string>
+    <string name="dark_mode_on">Сейчас включен</string>
+    <string name="dark_mode_off">Сейчас выключен</string>
+    <string name="pair_noflip">Не менять местами слова</string>
+
+    <string name="title_activity_dictionary">Словарь</string>
+    <string name="show_dict">Словарь</string>
+
+    <string name="title_activity_through_search">Поиск</string>
+
+    <string name="title_activity_settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="version">Версия</string>
+    <string name="groups">Группы</string>
+    <string name="show_inactive">Показывать неактивные группы</string>
+    <string name="search_inactive">Искать в неактивных группах</string>
+    <string name="appearance">Внешний вид</string>
+    <string name="dark_mode">Ночной режим</string>
+    <string name="show_inactive_on">Неактивные группы будут отображаться на главном экране</string>
+    <string name="show_inactive_off">Неактивные группы будут скрыты с главного экрана</string>
+    <string name="search_inactive_off">Неактивные группы не будут участвовать в глобальном поиске</string>
+    <string name="search_inactive_on">В глобальном поиске участвуют все группы</string>
+    <string name="actions">Действия</string>
+    <string name="export_all">Экспортировать все данные</string>
+    <string name="export_all_desc">Сохранить все группы (в том числе неактивные) в локальный файл</string>
+    <string name="import_all">Импортировать все данные</string>
+    <string name="import_all_desc">Полностью импортировать все данные из одного файла</string>
+    <string name="import_all_title">Импорт данных</string>
+    <string name="import_all_completed">Все данные были успешно загружены. Всего групп:</string>
+    <string name="import_all_nodata">Нет данных для импорта</string>
+</resources>

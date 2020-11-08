@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="8dp"
+              android:weightSum="1"
+            >
+
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:paddingLeft="10dp"
+                  android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_weight=".5"
+                android:id="@+id/group_name" android:textSize="20sp"/>
+        <TextView  android:paddingLeft="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/words_found" android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

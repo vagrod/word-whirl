@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/about">
+
+        <Preference
+                app:key="pref_version"
+                app:title="@string/version"
+                app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/appearance">
+
+        <SwitchPreferenceCompat
+                app:key="pref_dark_mode"
+                app:title="@string/dark_mode"
+                app:summaryOn="@string/dark_mode_on"
+                app:summaryOff="@string/dark_mode_off"
+                app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/groups">
+
+        <SwitchPreferenceCompat
+                app:key="pref_show_inactive"
+                app:title="@string/show_inactive"
+                app:summaryOn="@string/show_inactive_on"
+                app:summaryOff="@string/show_inactive_off"
+                />
+
+        <SwitchPreferenceCompat
+                app:key="pref_search_inactive"
+                app:title="@string/search_inactive"
+                app:summaryOn="@string/search_inactive_on"
+                app:summaryOff="@string/search_inactive_off"
+                />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/actions">
+        <Preference
+                app:key="pref_export_all"
+                app:title="@string/export_all"
+                app:summary="@string/export_all_desc"
+                app:useSimpleSummaryProvider="true" />
+
+        <Preference
+                app:key="pref_import_all"
+                app:title="@string/import_all"
+                app:summary="@string/import_all_desc"
+                app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

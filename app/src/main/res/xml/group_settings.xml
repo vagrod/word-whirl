@@ -1,0 +1,35 @@
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            app:title="@string/group_general">
+
+        <EditTextPreference
+                app:key="pref_name"
+                app:title=""
+                app:useSimpleSummaryProvider="true"/>
+
+        <PreferenceScreen app:key="pref_words"
+                          android:title="@string/group_words_list"
+                          android:summary="@string/group_words_list_desc">
+        </PreferenceScreen>
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/group_actions" app:key="actions">
+
+        <PreferenceScreen app:key="pref_delete"
+                          android:title="@string/group_delete"
+                          android:summary="@string/group_delete_desc">
+        </PreferenceScreen>
+
+        <PreferenceScreen app:key="pref_active"
+                android:title=""
+                android:summary="">
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

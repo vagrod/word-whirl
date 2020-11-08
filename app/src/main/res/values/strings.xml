@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Word Whirl</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_import">Import Group</string>
+    <string name="action_export">Export…</string>
+
+    <string name="select_file">Select File to Import</string>
+
+    <string name="menu_new_group">Add New Group…</string>
+    <string name="title_activity_group_settings_edit">Group Settings</string>
+    <string name="title_activity_group_settings_new">New Word Group</string>
+
+    <!-- Group Preferences -->
+    <string name="group_general">General</string>
+    <string name="group_actions">Actions</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_delete">Remove This Group</string>
+    <string name="group_delete_desc">Tap here to remove this group</string>
+    <string name="group_words_list">List Of Words</string>
+    <string name="group_words_list_desc">Tap to edit words list</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_activity_words_editor">Words Editor</string>
+    <string name="group_inactive">(inactive)</string>
+    <string name="group_set_active">Make active</string>
+    <string name="group_set_active_desc">Make this group active again</string>
+    <string name="group_set_inactive">Deactivate</string>
+    <string name="group_set_inactive_desc">Deactivate this group (it will NOT be deleted, but will become inactive)</string>
+
+    <string name="word_editor_first_word">First Word</string>
+    <string name="word_editor_second_word">Second Word</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="remove_confirm_title">Removing Group</string>
+    <string name="remove_confirm_message">Do you really want to remove this group? This action cannot be undone.</string>
+
+    <string name="start_whirl_single">Start This Group</string>
+    <string name="start_whirl_global">Start Global Whirl</string>
+    <string name="whirl_loop">Loop words sequence</string>
+    <string name="whirl_randomize">Randomize words order</string>
+    <string name="whirl_flip_rnd">Flip words at random</string>
+    <string name="whirl_flip_all">Flip every pair</string>
+    <string name="only_last_n_words">Only last N words:</string>
+    <string name="whirl_no_whirl">No word groups created yet. Hit this Plus sign to create a new one</string>
+    <string name="whirl_not_selected">No word group is selected. Use Hamburger menu to choose, or hit Plus sign to create a new one</string>
+
+    <string name="global_whirl">Random words</string>
+
+    <string name="whirl_end_confirm_title">End of word group</string>
+    <string name="whirl_end_confirm_message">That was the last word in this set. Repeat one more time?</string>
+
+    <string name="create_validation_title">Saving a group</string>
+    <string name="create_validation_message">Make sure you entered group name and created at least one word pair</string>
+    <string name="wordpair_title">Words pair</string>
+
+    <string name="last_n_validation_title">Starting Whirl</string>
+    <string name="last_n_validation_message">The \"Last N\" setting cannot be bigger than</string>
+    <string name="last_n_global_validation_message">The \"Last N\" setting cannot be zero, because it tells here how many random words must be in a global whirl</string>
+    <string name="last_n_global_is_null">The \"Last N\" setting must be set, because it tells, how many random words must be in a global whirl</string>
+
+    <string name="shuffle">Shuffle</string>
+    <string name="back">Back</string>
+    <string name="repeat">Repeat</string>
+    <string name="showhide_title">Show or hide second words</string>
+
+    <string name="group_saved">Group saved.</string>
+    <string name="group_removed">Group removed.</string>
+    <string name="word_updated">Word updated.</string>
+
+    <string name="storage_permission_title">Permission to save exported file</string>
+    <string name="storage_permission_message">App needs permission to access your device storage in order to proceed with export</string>
+
+    <string name="export_success_title">Export finished</string>
+    <string name="export_success_message">You will find exported file in your Download folder. File name is</string>
+
+    <string name="group_import_title">Importing Group</string>
+    <string name="import_completed">Importing completed. Affected group is</string>
+
+    <string name="search_title">Search</string>
+    <string name="dark_mode_on">Is on</string>
+    <string name="dark_mode_off">Is off</string>
+    <string name="pair_noflip">Always in this order</string>
+
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="show_dict">Dictionary</string>
+
+    <string name="title_activity_through_search">Search</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="groups">Groups</string>
+    <string name="show_inactive">Show incative groups</string>
+    <string name="search_inactive">Search inactive groups</string>
+    <string name="appearance">Appearance</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="show_inactive_on">Inactive groups will be shown on a main screen</string>
+    <string name="show_inactive_off">Inactive groups will be hidden on a main screen</string>
+    <string name="search_inactive_off">Inactive groups will not be included in a global search</string>
+    <string name="search_inactive_on">All groups will be included in a global search</string>
+    <string name="actions">Actions</string>
+    <string name="export_all">Back up everything</string>
+    <string name="export_all_desc">Back up all groups (inactive included) to a local file</string>
+    <string name="import_all">Restore from backup</string>
+    <string name="import_all_desc">Restore everything from a single backup file</string>
+    <string name="import_all_title">Importing Data</string>
+    <string name="import_all_completed">All data has been imported successfully. Groups total:</string>
+    <string name="import_all_nodata">No data to import</string>
+</resources>
